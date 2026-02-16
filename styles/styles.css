@@ -58,7 +58,14 @@
       width: 200px;
       height: 200px;
       object-fit: cover;
-      border-radius: 16px;
+      border-radius: 5px;
+      transition: transform 0.3s ease;        
+      /* box-shadow: 4px 4px 0px var(--black); */
+    }
+
+    .clientes-logos img:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0);
     }
 
      .header {
@@ -71,7 +78,7 @@
       left: 0;
       width: 100%;
       background: rgb(255, 255, 255, 0.3);
-      backdrop-filter: blur(20px);
+      backdrop-filter: blur(5px);
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
       z-index: 100;
     }
@@ -409,12 +416,12 @@
     .accordion-item {
       background: var(--white);
       color: white;
-      border-radius: 16px;
+      border-radius: 2px;
       overflow: hidden;
       cursor: pointer;
       transition: all 0.3s ease;
       border: 1px solid var(--grey);
-      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+      box-shadow: 4px 4px 0px var(--black);
     }
 
     .accordion-item:hover {
@@ -598,7 +605,7 @@
         align-items: start;
      }
 
-      .caso-card {
+      .caso-card-index {
         background: white;
         border-radius: 2px;
         padding: 40px;
@@ -613,6 +620,21 @@
         box-shadow: 4px 4px 0px var(--black);
       }
 
+      .caso-card {
+        background: white;
+        border-radius: 2px;
+        padding: 40px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        box-shadow: 4px 4px 0px var(--black);
+      }
+
       .caso-card::before {
         content: '';
         position: absolute;
@@ -623,6 +645,11 @@
       }
 
       .caso-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+      }
+
+      .caso-card-index:hover {
         transform: translateY(-5px);
         box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
       }
@@ -685,9 +712,13 @@
         text-align: center;
         background: var(--blue);
         padding: 60px 40px;
-        border-radius: 20px;
+        border-radius: 5px;
         color: white;
         position: relative;
+        box-shadow: 4px 4px 0px var(--black);
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
       }
 
       @keyframes float {
@@ -878,20 +909,21 @@
       }
 
       .btn-enviar {
-        background: var(--green);
+        background: var(--secundary);
         color: var(--black);
         padding: 14px 30px;
         border: none;
-        border-radius: 8px;
+        border-radius: 2px;
         font-size: 15px;
         font-weight: bold;
         cursor: pointer;
         transition: background 0.3s ease;
+        box-shadow: 4px 4px 0px var(--black);
       }
 
       .btn-enviar:hover {
         background: var(--white);
-        color: var(--blue);
+        color: var(--black);
         transform: translateY(2px);
       }
 /******************

@@ -153,9 +153,6 @@
             </div>
             </div>
     </section>
-
-
-
   <div id="carousel-track"></div>
 
 
@@ -200,7 +197,7 @@
                     <br>
                     Centralizamos y limpiamos los datos, construimos un almacén de datos local utilizando DuckDB y automatizamos la integración usando la API de Google Drive y Apache Airflow. También se desarrolló un panel interactivo para visualizar la participación y apoyar la toma de decisiones.
                     <br>
-                    <h3>Impacto:</h3>
+                    <h3>Impacto</h3>
                     <br>
                     <ul>
                       <li>Datos consolidados de más de 90 formularios.</li>
@@ -222,7 +219,7 @@
                     <br>
                     Implementamos un proceso de ingreso de datos unificado utilizando Google Sheets, aseguramos un formato consistente para los datos y conectamos el sistema a un tablero personalizado en Looker Studio adaptado a los KPI.
                     <br>
-                    <h3>Impacto:</h3>
+                    <h3>Impacto</h3>
                     <br>
                     <ul>
                       <li>Gestión centralizada de los datos clave del negocio.</li>
@@ -245,7 +242,7 @@
                     <br>
                     Digitalizamos el proceso utilizando Google Forms y Big Query para la carga y almacenamiento de datos, y desarrollamos un panel interactivo en Power BI para visualizar los hitos del desarrollo infantil.
                     <br>
-                    <h3>Impacto:</h3>
+                    <h3>Impacto</h3>
                     <br>
                     <ul>
                       <li>80% de reducción en los errores de entrada de datos.</li>
@@ -299,22 +296,7 @@
 <!-- ===========================
      FOOTER
      =========================== -->
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <span class="brand"><img src="img/Nuanz_logo2.png" height="20" width="100" alt=""></span>
-        <span class="copy">COPYRIGHT © 2025 Ariel Moscarella Cea.</span>
-      </div>
-      <nav class="footer-nav">
-        <a href="aclaremos.php">Preguntas Frecuentes</a>
-        <a href="PdS.php">Política de privacidad</a>
-        <a href="soluciones.php">Términos de Servicio</a>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</footer>
+<?php include 'footer.php'; ?>
 
 
 

@@ -341,7 +341,7 @@
         </div>-->
 
         <div class="casos-grid">
-            <div class="caso-card">
+            <div class="caso-card-index">
                 <div class="caso-logo"><img src="img/CasosDeExito/SI-Municipio.jpg" width="60"  height="60" alt=""></div>
                 <h3 class="caso-title">Monitoreo De Indicadores Sociales</h3>
                 <div class="caso-industry">Municipalidad de San Isidro</div>
@@ -357,7 +357,7 @@
                 </div>
             </div>
 
-            <div class="caso-card">
+            <div class="caso-card-index">
                 <div class="caso-logo"><img src="img/CasosDeExito/Melisam.jpg" width="60"  height="60" alt=""></div>
                 <h3 class="caso-title">Sistema de Prospección Comercial</h3>
                 <div class="caso-industry">Melisam Fire Group</div>
@@ -374,7 +374,7 @@
             </div>
 
 
-            <div class="caso-card">
+            <div class="caso-card-index">
                 <div class="caso-logo"><img src="img/CasosDeExito/Polivoda.jpeg" width="60"  height="60" alt=""></div>
                 <h3 class="caso-title">Almacenamiento De Datos Para El Análisis</h3>
                 <div class="caso-industry">Alejpa S.A</div>
@@ -390,7 +390,7 @@
                 </div>
             </div>
 
-            <div class="caso-card">
+            <div class="caso-card-index">
                 <div class="caso-logo"><img src="img/CasosDeExito/VL-Municipio.jpg" width="60"  height="60" alt=""></div>
                 <h3 class="caso-title">Análisis Y Panel De Control De Producción</h3>
                 <div class="caso-industry">Municipalidad de Vicente Lopez</div>
@@ -448,22 +448,7 @@
 <!-- ===========================
      FOOTER
      =========================== -->
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <span class="brand"><img src="img/Nuanz_logo2.png" height="20" width="100" alt=""></span>
-        <span class="copy">COPYRIGHT © 2025 Ariel Moscarella Cea.</span>
-      </div>
-      <nav class="footer-nav">
-        <a href="acalaremos.php">Preguntas Frecuentes</a>
-        <a href="PdS.php">Política de privacidad</a>
-        <a href="soluciones.php">Términos de Servicio</a>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</footer>
+<?php include 'footer.php'; ?>
 
 
 
@@ -537,7 +522,7 @@
         // Observar elementos para animar
         document.addEventListener('DOMContentLoaded', () => {
             const statsGrid = document.querySelector('.stats-grid');
-            const cards = document.querySelectorAll('.caso-card');
+            const cards = document.querySelectorAll('.caso-card-index');
             
             observer.observe(statsGrid);
             cards.forEach(card => observer.observe(card));
