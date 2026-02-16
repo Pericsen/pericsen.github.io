@@ -83,8 +83,18 @@
     <div class="cta-buttons">
       <a href="contactanos.php" class="btn-primary">Contactanos!</a>
     </div>
-    <br>
     <div class="separar"></div>
+
+    <p class="hero-subtitle">
+      Confían en nosotros:
+    </p>
+
+    <div class="clientes-logos">
+      <img src="img/CasosDeExito/Melisam.jpg" alt="Melisam Fire Group">
+      <img src="img/CasosDeExito/SI-Municipio.jpg" alt="Municipalidad de San Isidro">
+      <img src="img/CasosDeExito/VL-Municipio.jpg" alt="Municipalidad de Vicente Lopez">
+      <img src="img/CasosDeExito/Polivoda.jpeg" alt="Polivoda">
+    </div>
   </main>
 
   <!--SERVICIOS-->
@@ -302,7 +312,7 @@
 
 <!--CASOS DE EXITO-->
 
-   <section class="casos-exito">
+   <section class="casos-exito-index">
         <div class="section-header">
             <h2 class="section-title">Casos de Éxito</h2>
             <p class="section-subtitle">
@@ -337,8 +347,6 @@
                 <div class="caso-industry">Municipalidad de San Isidro</div>
                 <p class="caso-description">
                     Centralizacion de datos, integración y dashboard.
-                    <br>
-                    <br>
                 </p>
                 <div class="caso-metrics">
                     <div class="metric">
@@ -350,13 +358,28 @@
             </div>
 
             <div class="caso-card">
+                <div class="caso-logo"><img src="img/CasosDeExito/Melisam.jpg" width="60"  height="60" alt=""></div>
+                <h3 class="caso-title">Sistema de Prospección Comercial</h3>
+                <div class="caso-industry">Melisam Fire Group</div>
+                <p class="caso-description">
+                    Aumento del outreach comercial en un 620% para el equipo de ventas.
+                </p>
+                <div class="caso-metrics">
+                    <div class="metric">
+                         <div class="cta-buttons">
+                          <a href="nosotros.php#casos-exito" class="btn-primary">Ver Más</a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="caso-card">
                 <div class="caso-logo"><img src="img/CasosDeExito/Polivoda.jpeg" width="60"  height="60" alt=""></div>
                 <h3 class="caso-title">Almacenamiento De Datos Para El Análisis</h3>
                 <div class="caso-industry">Alejpa S.A</div>
                 <p class="caso-description">
                     Unificacion de la entrada de datos de producción y facturación.
-                    <br>
-                    <br>
                 </p>
                   <div class="caso-metrics">
                     <div class="metric">
@@ -373,8 +396,6 @@
                 <div class="caso-industry">Municipalidad de Vicente Lopez</div>
                 <p class="caso-description">
                     Digitalizacion del seguimiento de métricas de desarrollo infantil.
-                    <br>
-                    <br>
                 </p>
                 <div class="caso-metrics">
                     <div class="metric">
