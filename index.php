@@ -98,12 +98,11 @@
   </main>
 
   <!--SERVICIOS-->
-
-  
+  <div class="section-services-wrap">
     <div class="section-header">
       <br>
-            <h2 class="section-title">Datos con Objetivos</h2>
-            <p class="section-subtitle"><strong>
+            <h2 class="section-title-index">Datos con Objetivos</h2>
+            <p class="section-subtitle-index"><strong>
                  Colaboramos con vos para desarrollar una estrategia de datos personalizada que se alinee con tus objetivos comerciales, asegurando que tus decisiones basadas en datos mejoren el rendimiento, impulsen el crecimiento y logren resultados medibles.
                 <br>
                 <br>
@@ -117,9 +116,9 @@
     <!-- Lado Izquierdo -->
     <div class="services-left">
       
-      <div class="services-video">
+      <div class="services-image">
         <source media="(min-width: )" srcset="">
-        <img src="img/ServiciosData.jpg" alt="">
+        <img src="img/pinart-index.png" alt="">
       </div>
     </div>
 
@@ -259,7 +258,6 @@
   </section>
 </section>
 
-
 <!--CAROUSEL-->
 <section class="tech-carousel">
   <div class="carousel-track" id="carousel-track">
@@ -309,7 +307,7 @@
     <img src="img/svg/tools/Cloude.svg" alt="Cloude Platform" />
   </div>
 </section>
-
+</div>
 <!--CASOS DE EXITO-->
 
    <section class="casos-exito-index">

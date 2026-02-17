@@ -401,6 +401,15 @@
       filter: brightness(0.7) saturate(1.2) hue-rotate(10deg);
     }
 
+    .services-image img {
+      width: 100%;
+      aspect-ratio: 1 / 1.03;
+      border-radius: 16px;
+      /* box-shadow: 0 10px 25px rgba(0,0,0,0.8); */
+      object-fit: cover;
+      /* filter: brightness(0.7) saturate(1.2) hue-rotate(10deg); */
+    }
+
     .services-right {
       flex: 1;
       min-width: 300px;
@@ -411,6 +420,10 @@
       align-items: center;
       flex-direction: column;
       gap: 20px;
+    }
+
+    .section-services-wrap {
+      background: #7072f3;
     }
 
     .accordion-item {
@@ -582,17 +595,17 @@
         margin-bottom: 60px;
       }
 
-      .section-title {
+      .section-title-index {
         font-size: clamp(2.5rem, 5vw, 4rem);
         font-weight: 600;
-        color: var(--black);
+        color: var(--white);
         margin-bottom: 20px;
         line-height: 1.1;
       }
 
-      .section-subtitle {
+      .section-subtitle-index {
         font-size: 1.2rem;
-        color: #64748b;
+        color: var(--white);
         max-width: 600px;
         margin: 0 auto;
      }
@@ -621,7 +634,7 @@
       }
 
       .caso-card {
-        background: white;
+        background: rgb(249, 245, 255);
         border-radius: 5px;
         padding: 40px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
