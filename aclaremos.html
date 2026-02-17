@@ -13,20 +13,20 @@
 <body>
     <header class="header">
     <div class="logo">
-      <a href="index.php" class="logo-container">
+      <a href="index.html" class="logo-container">
         <img src="img/Nuanz_logo2.png" alt="Logo Normal" class="normal">
         <img src="img/Nuanz_logo1.png" alt="Logo Hover" class="hover">
       </a>
     </div>
 
     <nav class="nav-center">
-      <a href="index.php">Inicio</a>
-      <a href="nosotros.php">Nosotros</a>
-      <a href="soluciones.php">Soluciones</a>
-      <a href="aclaremos.php">Aclaremos</a>
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="soluciones.html">Soluciones</a>
+      <a href="aclaremos.html">Aclaremos</a>
     </nav>
 
-    <a href="contactanos.php" class="btn-right">Contactanos</a>
+    <a href="contactanos.html" class="btn-right">Contactanos</a>
 
     <div class="menu-toggle" onclick="toggleMenu()">
       <div></div>
@@ -36,11 +36,11 @@
   </header>
 
   <div class="mobile-menu" id="mobileMenu">
-    <a href="index.php">Inicio</a>
-    <a href="nosotros.php">Nosotros</a>
-    <a href="soluciones.php">Soluciones</a>
-    <a href="aclaremos.php">Aclaremos</a>
-    <a href="contactanos.php">Contactanos</a>
+    <a href="index.html">Inicio</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="soluciones.html">Soluciones</a>
+    <a href="aclaremos.html">Aclaremos</a>
+    <a href="contactanos.html">Contactanos</a>
   </div>
 
   <main class="main-content bg-aclaremos">
@@ -55,7 +55,7 @@
     </p>
 
     <div class="cta-buttons">
-      <a href="contactanos.php" class="btn-primary">Comenzar</a>
+      <a href="contactanos.html" class="btn-primary">Comenzar</a>
     </div>
     <br>
   </main>
@@ -170,7 +170,7 @@
             <div class="contact-section">
                 <h3>¿No encontraste tu respuesta?</h3>
                 <p>Nuestro equipo está listo para resolver cualquier duda específica sobre tu proyecto.</p>
-                <a href="contactanos.php"><button class="cta-button" onclick="scrollToContact()">¡Contáctanos!</button></a>
+                <a href="contactanos.html"><button class="cta-button" onclick="scrollToContact()">¡Contáctanos!</button></a>
             </div>
         </div>
     </div>
@@ -186,7 +186,21 @@
 <!-- ===========================
      FOOTER
      =========================== -->
-<?php include 'footer.php'; ?>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="brand"><img src="img/Nuanz_logo2.png" height="20" width="100" alt=""></span>
+        <span class="copy">COPYRIGHT &copy; 2026 Nuanz.</span>
+      </div>
+      <nav class="footer-nav">
+        <a href="aclaremos.html">Preguntas Frecuentes</a>
+        <a href="PdS.html">Política de privacidad</a>
+        <a href="soluciones.html">Términos de Servicio</a>
+      </nav>
+    </div>
+  </div>
+</footer>
 
     <script>
         function toggleMenu() {
