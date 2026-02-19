@@ -901,7 +901,7 @@
 
 .erp-section {
   padding: 80px 20px;
-  background: #6765d6;
+  background: #5459AC;
   position: relative;
   overflow: hidden;
 }
@@ -966,7 +966,7 @@
 }
 
 .journey-step {
-  background: rgba(247, 247, 247, 0.03);
+  background: #3D45AA;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 5px;
   padding: 28px 24px;
@@ -1050,7 +1050,7 @@
 
 /* Pain strip */
 .pain-strip {
-  background: rgba(99, 179, 237, 0.04);
+  background: #3D45AA;
   border: 1px solid rgba(99, 179, 237, 0.12);
   border-radius: 5px;
   padding: 36px 32px;
