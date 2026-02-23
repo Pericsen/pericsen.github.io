@@ -2,7 +2,7 @@
 
 Arreglar cards de casos de exito, soluciones. Mejorar esteticamente y que sea facil de leer y entender
 
-En el homepage, hacer mas completas la parte de soluciones, y sacar la pagina de nuestras soluciones
+En el homepage, hacer mas completas la parte de soluciones (Agregar un titulo de nuestras soluciones, agregar impacto y como beneficia a empresas), y sacar la pagina de nuestras soluciones.
 
 Armar un footer mas profesional, con datos de contacto, direccion, etc.
 
