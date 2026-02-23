@@ -56,40 +56,25 @@
 
 
 <div class="container">
-       
-        <section class="contact-grid">
-            <div class="contact-card">
-            <div class="contact-icon">📞</div>
-            <h3>Teléfono</h3>
-            <p class="contact-info">Llamada directa</p>
-            <div class="contact-links">
-                <a href="tel:+5492944231849" class="contact-link">🇦🇷 +54 9 2944 23 1849</a> 
-                <a href="tel:+34664791925" class="contact-link">🇪🇸 +34 664 79 19 25</a>
-            </div>
+        <div class="contact-card-single">
+            <a href="https://wa.me/542944231849" class="contact-row" target="_blank">
+                <span class="contact-row-icon"><img src="img/whatsapp.png" alt="WhatsApp" width="28" height="28"></span>
+                <span class="contact-row-label">WhatsApp</span>
+                <span class="contact-row-value">+54 2944 23 1849</span>
+            </a>
+            <div class="contact-row-divider"></div>
+            <a href="mailto:contactnuanz@gmail.com" class="contact-row">
+                <span class="contact-row-icon">✉️</span>
+                <span class="contact-row-label">Email</span>
+                <span class="contact-row-value">contactnuanz@gmail.com</span>
+            </a>
         </div>
-
-            <div class="contact-card">
-                <div class="contact-icon">✉️</div>
-                <h3>Email</h3>
-                <p class="contact-info">Escríbenos</p>
-                <br>
-                <a href="mailto:contacto@nuanz.com" class="contact-link">contactnuanz@gmail.com</a>
-            </div>
-
-            <div class="contact-card">
-                <div class="contact-icon"><img src="img/whatsapp.png" alt="" width="50"  height="50"></div>
-                <h3>WhatsApp</h3>
-                <p class="contact-info">Chat directo</p>
-                <br>
-                <a href="https://wa.me/34664791925" class="contact-link" target="_blank">Enviar mensaje</a>
-            </div>
-        </section>
         <br>
 </div>    
 </main>
         <section class="form-section" id="contacto">
-            <h2 class="form-title">¿Tienes un proyecto en mente?</h2>
-            <p class="form-subtitle">Cuéntanos sobre tu desafío y encontremos la solución perfecta juntos</p>
+            <h2 class="form-title">¿Tenés un proyecto en mente?</h2>
+            <p class="form-subtitle">Contanos sobre tu desafío y encontremos la solución perfecta juntos</p>
             
             <form class="contact-form" action="phpmailer.php" method="POST">
               <div class="form-group">
@@ -186,16 +171,6 @@
             }, 2000);
         });
 
-        // Add some interactive effects
-        document.querySelectorAll('.contact-card').forEach(card => {
-            card.addEventListener('mouseenter', function() {
-                this.style.transform = 'translateY(-10px) scale(1.02)';
-            });
-            
-            card.addEventListener('mouseleave', function() {
-                this.style.transform = 'translateY(0) scale(1)';
-            });
-        });
     </script>
 
 </body>

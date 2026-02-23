@@ -1158,8 +1158,8 @@
       }
 
       .btn-enviar {
-        background: var(--secundary);
-        color: var(--black);
+        background: var(--blue);
+        color: var(--white);
         padding: 14px 30px;
         border: none;
         border-radius: 2px;
@@ -1207,17 +1207,18 @@
 
     .imagen-container {
       position: relative;
-      border-radius: 20px;
+      border-radius: 5px;
       overflow: hidden;
       background: var(--blue);
-      padding: 4px;
+      padding: 2px;
+      box-shadow: 3px 3px 0px var(--black);
     }
     
     .foto-placeholder {
       width: 100%;
       height: 350px;
       background: var(--blue);
-      border-radius: 16px;
+      border-radius: 5px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1230,12 +1231,12 @@
       width: 100%;
       height: 350px;
       object-fit: cover;
-      border-radius: 16px;
+      border-radius: 5px;
       transition: transform 0.5s ease;
     }
 
     .miembro-foto:hover {
-      transform: scale(1.05);
+      transform: scale(1.02);
     }
 
     .decoracion {
@@ -1653,7 +1654,7 @@
 *******************/ 
 
       .bg-contactanos{
-      background-image: url(../img/FNuanz\ cont.png);
+      background-image: url(../img/FNuanz\ sols.png);
     }
 
     .contact-grid {
@@ -1663,17 +1664,85 @@
       margin-bottom: 60px;
     }
 
-    .contact-card {
-      background: white;
-      padding: 40px;
-      border-radius: 20px;
-      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-      transition: all 0.3s ease;
-      text-align: center;
-      position: relative;
+    .contact-card-single {
+      background: rgb(249, 245, 255);
+      border-radius: 5px;
+      box-shadow: 4px 4px 0px var(--black);
+      max-width: 520px;
+      margin: 0 auto 40px;
       overflow: hidden;
     }
 
+    .contact-row {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 22px 30px;
+      text-decoration: none;
+      color: var(--black);
+      transition: background 0.2s ease;
+    }
+
+    .contact-row:hover {
+      background: var(--grey);
+    }
+
+    .contact-row-icon {
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+      width: 32px;
+    }
+
+    .contact-row-label {
+      font-weight: 700;
+      font-size: 15px;
+      min-width: 90px;
+      color: #1e293b;
+    }
+
+    .contact-row-value {
+      font-size: 15px;
+      color: #64748b;
+    }
+
+    .contact-row-divider {
+      height: 1px;
+      background: rgba(0,0,0,0.08);
+      margin: 0 30px;
+    }
+
+      .caso-card {
+        background: rgb(249, 245, 255);
+        border-radius: 5px;
+        padding: 40px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        box-shadow: 4px 4px 0px var(--black);
+      }
+
+    .contact-card {
+        background: rgb(249, 245, 255);
+        border-radius: 5px;
+        padding: 40px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        box-shadow: 4px 4px 0px var(--black);
+    }
+/* 
     .contact-card::before {
       content: '';
       position: absolute;
@@ -1682,7 +1751,7 @@
       right: 0;
       height: 4px;
       background: var(--blue);
-    }
+    } */
 
     .contact-card:hover {
       transform: translateY(-10px);
@@ -1699,38 +1768,39 @@
     .contact-icon {
       width: 80px;
       height: 80px;
-      background: linear-gradient(135deg, var(--blue), var(--green));
-      border-radius: 20px;
+      /* background: linear-gradient(90deg, var(--blue), var(--green)); */
+      border-radius: 5px;
       display: flex;
       align-items: center;
       justify-content: center;
       margin: 0 auto 25px;
       font-size: 35px;
       color: white;
+      box-shadow: 4px 4px 0px var(--black);
     }
     
     .contact-link {
-  display: block; /* Cambiado de inline-block a block */
-  background: var(--secundary);
-  color: var(--black);
-  padding: 12px 30px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  margin-bottom: 10px; /* Añadido margen inferior para el espaciado */
-}
-
-.contact-link:last-child {
-  margin-bottom: 0; /* Elimina el margen del último enlace */
-}
-
-.contact-link:hover {
-  background: var(--blue);
-  color: var(--white);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(16, 217, 196, 0.3);
-}
+      display: block; /* Cambiado de inline-block a block */
+      background: var(--secundary);
+      color: var(--black);
+      padding: 12px 30px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      margin-bottom: 10px; /* Añadido margen inferior para el espaciado */
+    }
+    
+    .contact-link:last-child {
+      margin-bottom: 0; /* Elimina el margen del último enlace */
+    }
+    
+    .contact-link:hover {
+      background: var(--blue);
+      color: var(--white);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(16, 217, 196, 0.3);
+    }
 
     .contact-info {
       font-size: 18px;
@@ -1740,9 +1810,15 @@
     }
 
     .form-section {
-      background: var(--grey);
+      background: var(--secundary);
       padding: 60px 40px;
-      border-radius: 20px;
+      border-radius: 5px;
+      /* border: 1px solid rgba(0,0,0,0.08); */
+      box-shadow: 4px 4px 0px var(--black);
+      max-width: 1200px;
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
       position: relative;
       overflow: hidden;
     }

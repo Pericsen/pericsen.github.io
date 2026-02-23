@@ -2,7 +2,7 @@
 
 Arreglar cards de casos de exito, soluciones. Mejorar esteticamente y que sea facil de leer y entender
 
-Agregar seccion de modalidad de trabajo en el homepage, como hicimos en el Deck 
+En el homepage, hacer mas completas la parte de soluciones, y sacar la pagina de nuestras soluciones
 
 Armar un footer mas profesional, con datos de contacto, direccion, etc.
 
@@ -12,9 +12,10 @@ Seccion de nosotros, agregar nuestros mails para contactar --> quizas puede ir e
 
 Casos de exito en index --> poner 2 destacados, con leer mas --> lleva a casos de exito en nosotros (problema de negocio -> objetivo -> solucion -> resultados)
 
-Agregar video demostrativo en index 
+Agregar video demostrativo en index
 
-levantar en github pages
+Mejorar formulario de contacto
+
 
 Está bastante bien para ser un WIP. Se nota trabajo y tiene una estructura sólida. Te doy feedback honesto:
 
