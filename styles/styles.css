@@ -5,7 +5,8 @@
    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
     :root{
-        --blue:#3716E7;
+        --blue: #7072f3;
+        --bluenuanz: #3716E7;
         --secundary:#67FBB8;
         --green:#52FFB7;
         --grey:#EBF4F9;
