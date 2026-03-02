@@ -27,7 +27,7 @@
       background: var(--grey);
       color: var(--black);
       overflow-x: hidden;
-      min-height: 200vh;
+      min-height: 100vh;
     }
 
     body::before {
@@ -287,6 +287,10 @@
       background: var(--secundary); 
       border-color: rgba(255,255,255,.2); 
       color:var(--black); 
+    }
+
+    .site-footer .social-row {
+      margin: 0;
     }
 
     /* FOOTER */
@@ -1180,7 +1184,7 @@
       }
 
       .btn-enviar {
-        background: var(--blue);
+        background: var(--bluenuanz);
         color: var(--white);
         padding: 14px 30px;
         border: none;
@@ -1676,7 +1680,7 @@
 *******************/ 
 
       .bg-contactanos{
-      background-image: url(../img/FNuanz\ sols.png);
+      background-image: url(../img/FNuanz\ nosotros.png);
     }
 
     .contact-grid {
@@ -1699,14 +1703,15 @@
       display: flex;
       align-items: center;
       gap: 18px;
-      padding: 22px 30px;
+      padding: 30px 30px;
       text-decoration: none;
       color: var(--black);
       transition: background 0.2s ease;
     }
 
     .contact-row:hover {
-      background: var(--grey);
+      background: rgb(196, 185, 245);
+      transition: background 1s ease;
     }
 
     .contact-row-icon {
@@ -1719,14 +1724,15 @@
 
     .contact-row-label {
       font-weight: 700;
-      font-size: 15px;
-      min-width: 90px;
+      font-size: 18px;
+      min-width: 100px;
       color: #1e293b;
     }
 
     .contact-row-value {
-      font-size: 15px;
-      color: #64748b;
+      font-weight: 400;
+      font-size: 18px;
+      color: #404a58;
     }
 
     .contact-row-divider {
@@ -1832,7 +1838,7 @@
     }
 
     .form-section {
-      background: var(--secundary);
+      background: var(--blue);
       padding: 60px 40px;
       border-radius: 5px;
       /* border: 1px solid rgba(0,0,0,0.08); */
@@ -1858,14 +1864,14 @@
     .form-title {
       font-size: 36px;
       font-weight: 600;
-      color: #1e293b;
+      color: #ffffff;
       margin-bottom: 20px;
       text-align: center;
     }
 
     .form-subtitle {
       font-size: 18px;
-      color: #64748b;
+      color: #ffffff;
       text-align: center;
       margin-bottom: 40px;
     }
