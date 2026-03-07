@@ -406,13 +406,12 @@
       filter: brightness(0.7) saturate(1.2) hue-rotate(10deg);
     }
 
-    .services-image img {
+    .services-image img,
+    .services-image video {
       width: 100%;
-      aspect-ratio: 1 / 1.03;
+      aspect-ratio: 1 / 1.02;
       border-radius: 16px;
-      /* box-shadow: 0 10px 25px rgba(0,0,0,0.8); */
       object-fit: cover;
-      /* filter: brightness(0.7) saturate(1.2) hue-rotate(10deg); */
     }
 
     .services-right {
