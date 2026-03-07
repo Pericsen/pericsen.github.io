@@ -1682,6 +1682,35 @@
       background-image: url(../img/FNuanz\ nosotros.png);
     }
 
+    .calendly-cta {
+      text-align: center;
+      margin-top: 24px;
+    }
+
+    .calendly-cta p {
+      font-size: 12px;
+      opacity: 0.7;
+      margin-bottom: 10px;
+    }
+
+    .btn-calendly {
+      background: var(--bluenuanz);
+      display: inline-block;
+      padding: 12px 28px;
+      /* border: 2px solid var(--blue); */
+      border-radius: 2px;
+      color: var(--white);
+      font-weight: 600;
+      text-decoration: none;
+      transition: background .2s ease, color .2s ease;
+      box-shadow: 4px 4px 0px var(--black);
+    }
+
+    .btn-calendly:hover {
+      background: var(--green);
+      color: var(--black);
+    }
+
     .contact-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
